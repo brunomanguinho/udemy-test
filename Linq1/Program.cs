@@ -43,6 +43,8 @@ namespace Linq1
             var r2 = employees.Where(e => e.Name[0] == 'M').Select(e => e.Sallary).DefaultIfEmpty(0.0).Sum();
 
             Console.WriteLine(r2.ToString("F2", CultureInfo.InvariantCulture));
+
+            Console.WriteLine("Finalizando a aplicação");
         }
 
     }
