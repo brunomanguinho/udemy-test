@@ -45,6 +45,7 @@ namespace Linq1
             Console.WriteLine(r2.ToString("F2", CultureInfo.InvariantCulture));
 
             Console.WriteLine("Finalizando a aplicação");
+            Console.WriteLine("Utilizando o git");
         }
 
     }
